@@ -1,0 +1,12 @@
+field	field-example	field-data-type	categorical-field-valid-values	field-description
+study-id	Akbar_2022_a_S4	str	NA	"The study id, in the format First_<author>_<year>_<letter>_<dataset_name>, as in Akbar_2022_a_S4. The dataset_name field is arbitrary free text and intented to cover papers with multiple data tables, or datasets that we process into multiple versions."
+inline-citation	"Akbar et al., 2022"	str	NA	"The short inline citation, excluding parentheses"
+paper-title	"Baseline assessment of coral health and disease in Tioman Island Marine Park, Malaysia"	str	NA	The publication title
+paper-year	2022	int	NA	The year of publication
+paper-journal	Community Ecology	str	NA	The full publication journal name
+paper-doi		str	NA	The paper doi
+original-file-name-source	Supplemental Dataset 1	str	NA	"The source of the original data, within the original publicaiton (e.g. Supplementary Data 1)"
+original-file-name		str	NA	The original file name of the raw data as downloaded from the publication or database
+internal-raw-data-file-name		str	NA	Our internal name for the data in the Raw_Data folder. Can be mapped to the original file name using the Study Metadata file
+original-data-format	proportional_disease_prevalence_by_species	str	"proportional_disease_prevalence_by_species, disase_counts_by_species"	The format of the original dataset
+internal-file-format	count_by_species	str		The file format of the internal dataset
