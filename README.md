@@ -17,4 +17,3 @@ This repository is intended to hold standardized coral disease datasets useful f
 
 
 
-
