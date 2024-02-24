@@ -1,0 +1,40 @@
+FIELD_NAME,FIELD_TYPE,FIELD_DESCRIPTION,UNIT_OF_MEASURE,ALLOWED_VALUES
+SITE_ID,NUMBER,Unique site identifier,NA,NA
+SITE,NVARCHAR2,The 3-character code for the site surveyed,NA,NA
+SITE_NAME,VARCHAR2,Site name,NA,NA
+STATION,NUMBER,Sampling station number,NA,NA
+STATIONID,VARCHAR2,"Sampling station ID, comprised of 3-letter site code and the sampling station number (e.g., TUM-6, EAB-2)",NA,NA
+LATITUDE,NUMBER,"Latitude in decimal degrees, WGS84, for the given site",decimal degrees,NA
+LONGITUDE,NUMBER,"Longitude in decimal degrees, WGS84 for the given site",decimal degrees,NA
+DATE_TIME,DATE,Date the survey was conducted,MM/DD/YYYY H:MM,NA
+OBSERVERID,VARCHAR2,Initials of diver conducting survey,NA,NA
+WAVEEXPOSURE,VARCHAR2,"A general classification of the degree of wave exposure (Low, Moderate, High) for a given site; the wave exposure value is the same for all sampling stations within a given site",,"Low, Moderate, High"
+DEPTH,NUMBER,Depth in meters,meters,NA
+STRATUM,NVARCHAR2,"The stratum for the given site/station, comprised of the reef zone and subzone (e.g., ReefSlope-Terrace, ReefFlatMargin-West)",NA,"Embayment-Terrace, ReefSlope-Terrace, ReefSlope-West, ReefFlatMargin-East, ReefFlatMargin-West"
+STATION_TYPE,VARCHAR2,Sampling station type (fixed or unfixed),NA,"Fixed, Unfixed"
+CORALTRANSECTID,NUMBER,Unique transect identifier,NA,NA
+TRANSECT_NUMBER,NUMBER,"Transect number for a given site visit; value is ""1"" unless more than one transect was surveyed at a sampling station during a single site visit",NA,NA
+TRANSECT_LENGTH,NUMBER,Transect length in meters,meters,NA
+CORALQUADRATID,NUMBER,Unique quadrat identifier,NA,NA
+TRANSECT_SIDE,VARCHAR2,"Side of the transect tape on which quadrat is placed (R=right side, L=left side); currently, all quadrats are placed on the right side of the transect tape.",NA,NA
+TRANSECT_LOCATION,NUMBER,Location of quadrat along the transect in meters,meters,NA
+QUADRAT_LENGTH,NUMBER,Quadrat length in meters,meters,NA
+QUADRAT_WIDTH,NUMBER,Quadrat width in meters,meters,NA
+CORAL_CODE,NVARCHAR2,Unique 4-letter code,NA,NA
+SCIENTIFIC_NAME,VARCHAR2,Scientific name,NA,NA
+GENUS,NVARCHAR2,Genus,NA,NA
+COLONY_LENGTH,NUMBER,Colony length in centimeters; length is defined as the measurement of the greatest colony diameter,centimeters,NA
+COLONY_WIDTH,NUMBER,"Colony width in centimeters; width is defined as the measurement perpendicular to the greatest colony diameter (i.e., length)",centimeters,NA
+OLD_DEAD,NUMBER,Percentage of old dead coral,percent,NA
+RECENT_DEAD,NUMBER,"Percentage of recently dead coral; recent dead is characterized by white skeleton lacking live tissue, or by skeleton colonized by bright green microturfing algae",percent,NA
+DZ_CODE,NVARCHAR2,Code for coral disease or condition,NA,"NULL, AI = Algal infestation, ALPH = Alpheus burrow, AO = Algal overgrowth, ASC = Ascidian, BLEA = Bleaching, BLKB = Black band disease, BRNB = Brown band disease, COR = Coralliophila, COTS = Crown of thorns seastar, CYAN = Cyanobacteria, DISC = Discoloration, DRUP = Drupella, FB = Fish bites, GGA = Growth anomaly, MSC = Mucous sloughing from coral, NA = Not applicable, PALE = Paling, PB = Patchy bleaching, PR = Pigmentation response, PRED = Predation-unknown, SATL = Sub-acute tissue loss, SEB = Skeletal eroding band disease, SED = Sediment on coral, TERP = Terpios overgrowth, UN = Unknown, URCH = Urchin infestation, UWS = Ulcerative white spots disease, VERM = Vermetid worm infestation, WS = White syndrome"
+DISEASE,NVARCHAR2,Coral disease or condition,NA,"NULL, Algal infestation, Alpheus burrow, Algal overgrowth, Ascidian, Bleaching, Black band disease, Brown band disease, Coralliophila, Crown of thorns seastar, Cyanobacteria, Discoloration, Drupella, Fish bites, Growth anomaly, Mucous sloughing from coral, Not applicable, Paling, Patchy bleaching, Pigmentation response, Predation-unknown, Sub-acute tissue loss, Skeletal eroding band disease, Sediment on coral, Terpios overgrowth, Unknown, Urchin infestation, Ulcerative white spots disease, Vermetid worm infestation, White syndrome"
+SEVERITY,NUMBER,Severity of disease/condition (1 = 1–20% of colony affected; 2 = 21–40%; 3 = 41–60%; 4 = 61–80%; 5 = 81–100%),NA,"1, 2, 3, 4, 5"
+DZ_CODE2,NVARCHAR2,Code for second coral disease or condition,NA,"NULL, AI = Algal infestation, ALPH = Alpheus burrow, AO = Algal overgrowth, ASC = Ascidian, BLEA = Bleaching, BLKB = Black band disease, BRNB = Brown band disease, COR = Coralliophila, COTS = Crown of thorns seastar, CYAN = Cyanobacteria, DISC = Discoloration, DRUP = Drupella, FB = Fish bites, GGA = Growth anomaly, MSC = Mucous sloughing from coral, NA = Not applicable, PALE = Paling, PB = Patchy bleaching, PR = Pigmentation response, PRED = Predation-unknown, SATL = Sub-acute tissue loss, SEB = Skeletal eroding band disease, SED = Sediment on coral, TERP = Terpios overgrowth, UN = Unknown, URCH = Urchin infestation, UWS = Ulcerative white spots disease, VERM = Vermetid worm infestation, WS = White syndrome"
+DISEASE2,NVARCHAR2,Second coral disease or condition,NA,"NULL, Algal infestation, Alpheus burrow, Algal overgrowth, Ascidian, Bleaching, Black band disease, Brown band disease, Coralliophila, Crown of thorns seastar, Cyanobacteria, Discoloration, Drupella, Fish bites, Growth anomaly, Mucous sloughing from coral, Not applicable, Paling, Patchy bleaching, Pigmentation response, Predation-unknown, Sub-acute tissue loss, Skeletal eroding band disease, Sediment on coral, Terpios overgrowth, Unknown, Urchin infestation, Ulcerative white spots disease, Vermetid worm infestation, White syndrome"
+SEVERITY2,NUMBER,Severity of second disease/condition (1 = 1–20% of colony affected; 2 = 21–40%; 3 = 41–60%; 4 = 61–80%; 5 = 81–100%),NA,"1, 2, 3, 4, 5"
+PHOTO_YN,NVARCHAR2,"Indicates availability of photo of colony (1 = Yes, 0 = No)",NA,"Yes, No"
+COLLECTED_YN,NVARCHAR2,"Indicates whether all or a portion of the colony was collected (1 = Yes, 0 = No)",NA,"Yes, No"
+FRAGMENT_YN,NVARCHAR2,"Indicates if the colony was an not attached to substrate, possibly as a fragment of another colony (1 = Yes, 0 = No)",NA,"Yes, No"
+REMNANT_YN,NVARCHAR2,Indicates if the colony may be a remnant of a larger colony,NA,"Yes, No"
+COMMENT_,NVARCHAR2,Comments recorded by the observer,NA,NA
