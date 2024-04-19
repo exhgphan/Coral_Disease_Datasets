@@ -1,0 +1,11 @@
+﻿Field_name,Definition,Data_dictionary_source
+Genus,The genera surveyed,Infered from paper text
+year,Years that data was collected,Infered from paper text
+n,Number of corals counted ,Infered from paper text
+Rel. Abundance (%),Disease prevalance among counted corals in percent +/ standard error,Infered from paper text
+BBP,Black Band Disease,Infered from paper text
+SGA,Skeletal Growth Anomaly,Infered from paper text
+WMD,White Mat Disease,Infered from paper text
+AYBD,Arabian Yellow Band Disease,Infered from paper text
+WS,White Syndrome,Infered from paper text
+PPS,Porites Pink Spot ,Infered from paper text
