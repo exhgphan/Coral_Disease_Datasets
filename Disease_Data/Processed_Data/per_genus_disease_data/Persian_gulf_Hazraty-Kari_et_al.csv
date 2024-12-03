@@ -1,0 +1,9 @@
+,Genus,BBD_count,SGA_count,WMD_count,AYBD_count,WS_count,PPS_count,healthy_count,total_diseased_count,total_diseased_percent
+0,Acropora,16,2,0,0,21,0,826,39,0.037037037037037035
+1,Conscinaraea,0,0,1,4,0,0,311,5,0.055408970976253295
+2,Cyphastrea,0,0,5,0,0,0,152,5,0.08952959028831563
+3,Dipsastrea,0,0,10,0,0,0,942,10,0.022222222222222223
+4,Favites,0,0,26,0,0,0,630,26,0.0
+5,Leptastrea,0,0,1,0,0,0,170,1,0.04950495049504951
+6,Platygyra,0,3,0,0,0,0,684,3,0.0
+7,Porites,0,1,28,3,0,36,996,68,0.0079155672823219
